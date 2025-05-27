@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="calendario.js" defer></script>
+    <div class="calendario">
+        <div class="contador">
+            <h1 id="Fecha">Enero 2025</h1>
+            <div class="anterior-siguiente">
+                <button id="Anterior">▲</button>
+                <button id="Siguiente">▼</button>
+            </div>
+        </div>
+        <div class="dias-semana">
+            <span class="dia">Sáb</span>
+            <span class="dia">Dom</span>
+            <span class="dia">Lun</span>
+            <span class="dia">Mar</span>
+            <span class="dia">Mié</span>
+            <span class="dia">Jue</span>
+            <span class="dia">Vie</span>
+        </div>
+        <div class="funcion">
+            <ul class="dias" id="ListaDias">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+            </ul>
+        </div>
+    </div>
+    <div class="eventos" id="VentanaEventos">
+        <h1>Eventos</h1>
+        <ul class="eventos-lista" id="ListaEventos">
+        </ul>
+    </div>
+</body>
+</html>

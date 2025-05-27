@@ -1,0 +1,95 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.calendario{
+    width: 400px;
+    min-height: 235px;
+    background-color: rgb(223, 218, 218);
+    border-radius: 8px;
+}
+
+.calendario .contador{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(99, 201, 107);
+    margin-bottom: 1em;
+    border-radius: 6px;
+}
+
+.calendario .contador h1{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: rgb(44, 43, 43);
+    width: 100%;
+    margin-left: 0.5em;
+}
+
+.calendario .contador .anterior-siguiente{
+    margin: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.calendario .contador button{
+    background-color: transparent;
+    transition: all 200ms;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0.1em;
+    margin-right: 0.5em;
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    border: 0;
+    height: 25px;
+}
+
+.calendario .contador button:hover{
+    background-color: rgba(216, 213, 213, 0.39);
+    cursor: pointer;
+}
+
+.calendario .dias-semana{
+    display: flex;
+    justify-content: center;
+}
+
+.calendario .dias-semana *{
+    padding: 0 7.4px;
+    color: rgb(44, 43, 43);
+}
+
+.dias{
+    margin-left: 2em;
+    margin-right: 2em;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    align-items: center;
+    box-sizing: border-box;
+    list-style: none;
+    color: rgb(19, 18, 18);
+}
+
+.eventos{
+    width: 400px;
+    min-height: 235px;
+    background-color: rgb(223, 218, 218);
+    border-radius: 8px;
+}
+
+.eventos h1{
+    text-align: center;
+    color: rgb(44, 43, 43);
+    padding-top: 0.2em;
+} 
+
+.eventos p{
+    margin-left: 1.4em;
+}
+
+.eventos ul li{
+    padding: 2px;
+    color: rgb(19, 18, 18);
+}
